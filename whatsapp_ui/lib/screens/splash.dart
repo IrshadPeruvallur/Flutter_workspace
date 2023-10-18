@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
-import 'package:whatsapp_ui/screens/s3.dart';
+import 'package:whatsapp_ui/screens/chat.dart';
 
 class s1 extends StatefulWidget {
   const s1({super.key});
@@ -63,7 +63,7 @@ class _s1State extends State<s1> {
 
   Future <void> gotologin()async{
     await Future.delayed(Duration(seconds: 5));
-    Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context) => s3()));
+    Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context) => chat()));
   }
 }
 

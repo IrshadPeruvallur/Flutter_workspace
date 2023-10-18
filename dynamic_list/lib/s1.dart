@@ -35,7 +35,7 @@ class _MyWidgetState extends State<MyWidget> {
               ),
               separatorBuilder: (context, index) => Divider(),
               itemCount: items.length,
-            ),
+            ),  
           ),
         ],
       ),
